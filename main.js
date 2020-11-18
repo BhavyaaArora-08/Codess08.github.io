@@ -5,9 +5,9 @@ window.addEventListener("load", async () => {
   setTimeout(() => {
     $(".preloader .rocket").addClass("rocket-exit");
     $(".preloader h1").addClass("rocket-exit");
-  }, 100);
+  }, 10);
 
-  $(".preloader").fadeOut(300, () => {
+  $(".preloader").fadeOut(20, () => {
     $(".content").removeClass("hide");
     $("#my-section").removeClass("hide");
     $(".container1").removeClass("hide");
